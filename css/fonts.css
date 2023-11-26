@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica Regular'), local('Helvetica-Regular'),
+        url('../fonts/Helvetica.woff2') format('woff2'),
+        url('../fonts/Helvetica.woff') format('woff'),
+        url('../fonts/Helvetica.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-BoldOblique.eot');
+    src: local('Helvetica Bold Oblique'), local('Helvetica-BoldOblique'),
+        url('../fonts/Helvetica-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Helvetica-BoldOblique.woff2') format('woff2'),
+        url('../fonts/Helvetica-BoldOblique.woff') format('woff'),
+        url('../fonts/Helvetica-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "NetflixSans";
+    src: url("../fonts/NetflixSans-Bold.otf") format("opentype"),
+        url('NetflixSans-Bold.woff2') format('woff2'),
+    ;
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "NetflixSans";
+    src: url("../fonts/NetflixSans-Light.otf") format("opentype"),
+        url('../fonts/NetflixSans-Light.woff2') format('woff2'),
+    ;
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NetflixSans";
+    src: url("../fonts/NetflixSans-Medium.otf") format("opentype"),
+        url('../fonts/NetflixSans-Medium.woff2') format('woff2'),
+    ;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NetflixSans";
+    src: url("../fonts/NetflixSans-Regular.otf") format("opentype"),
+        url('../fonts/NetflixSans-Regular.woff2') format('woff2'),
+    ;
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NetflixSans";
+    src: url("../fonts/netflixsans-thin.ttf") format("truetype");
+}
