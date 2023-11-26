@@ -150,18 +150,17 @@ a {
   align-items: center;
   gap: 33.047px;
 }
-
-.menu__list {
+.header__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 33.047px;
 }
-.menu__link {
+.header__link {
   padding: 11.016px;
   border-bottom: 1.377px solid #FFF;
 }
-.menu__link a {
+.header__link a {
   font-family: "Helvetica";
   font-size: 22.031px;
   opacity: 0.7;
@@ -206,7 +205,7 @@ a {
 .input__hotels input {
   width: 100%;
 }
-.input__submit {
+.input__button {
   width: 20%;
   border-radius: 44.062px;
   background: #FFF;
@@ -215,16 +214,34 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1 0 0;
-}
-.input__submit::-moz-placeholder {
-  color: #2659C3;
   font-family: "Helvetica";
   font-size: 22.031px;
   font-weight: 700;
 }
-.input__submit::placeholder {
+.input__button a {
   color: #2659C3;
+}
+
+.categories__title {
+  color: #FFF;
   font-family: "Helvetica";
-  font-size: 22.031px;
+  font-size: 44.062px;
   font-weight: 700;
+  margin: 55px 0 0 165px;
+}
+.categories__lists {
+  margin: 55px 165px 21px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__icon {
+  opacity: 0.4;
+}
+.list__title {
+  padding: 22px 0 0 0;
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 22.031px;
+  opacity: 0.4;
 }/*# sourceMappingURL=main.css.map */
