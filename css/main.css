@@ -223,10 +223,6 @@ a {
 }
 
 .categories__title {
-  color: #FFF;
-  font-family: "Helvetica";
-  font-size: 44.062px;
-  font-weight: 700;
   margin: 55px 0 0 165px;
 }
 .categories__lists {
@@ -235,13 +231,69 @@ a {
   justify-content: space-between;
 }
 
+.subtitle {
+  color: #FFF;
+  font-family: "Helvetica";
+  font-size: 44.062px;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22.031px;
+}
 .list__icon {
   opacity: 0.4;
+  margin: 0 auto;
 }
 .list__title {
-  padding: 22px 0 0 0;
   color: #FFF;
   font-family: Helvetica;
   font-size: 22.031px;
   opacity: 0.4;
+}
+
+.destinations__title {
+  margin: 109px 0 0 165px;
+}
+.destinations__lists {
+  margin: 55px 0 0 174px;
+  display: flex;
+  height: 275.388px;
+  padding-left: 0px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 33.047px;
+}
+.destinations__list {
+  width: 426.852px;
+  height: 275.388px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 100%), lightgray 0px -22.375px/100% 116.25% no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.destinations__list_1 {
+  background: url("/img/destinations/image 1.png") center/cover no-repeat;
+}
+.destinations__list_2 {
+  background: url("/img/destinations/image 2.png") center/cover no-repeat;
+}
+.destinations__list_3 {
+  background: url("/img/destinations/image 3.png") center/cover no-repeat;
+}
+.destinations__list_4 {
+  background: url("/img/destinations/image 4.png") center/cover no-repeat;
+}
+.destinations__subtitle {
+  color: #FFF;
+  font-family: "Netflix Sans";
+  font-size: 33.047px;
+  font-weight: 500;
+  background: none;
+  padding: 0 0 33px 33px;
 }/*# sourceMappingURL=main.css.map */
